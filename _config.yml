@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Jaryoung
-subtitle:
-description: jerryoung love jaryoung.
+title: 全栈工程师之路
+subtitle:  致力成为全栈工程师的后端狗一枚
+description: 目前就职于北京某IT公司，后端开发。
 keywords:
 author: Jerry Wu
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,3 +81,4 @@ deploy:
   type: git
   repo: https://github.com/jerryoung/jerryoung.github.io.git
   branch: master
+  message:
