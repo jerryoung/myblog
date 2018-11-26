@@ -81,4 +81,11 @@ deploy:
   type: git
   repo: https://github.com/jerryoung/jerryoung.github.io.git
   branch: master
-  message:
+  message: 增加搜索和分享
+
+ # local search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
