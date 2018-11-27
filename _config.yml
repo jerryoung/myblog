@@ -81,7 +81,7 @@ deploy:
   type: git
   repo: https://github.com/jerryoung/jerryoung.github.io.git
   branch: master
-  message: 增加搜索和分享
+  message: 百度分享修改衬浮窗形式
 
  # local search
 search:

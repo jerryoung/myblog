@@ -418,7 +418,7 @@
             <span class="post-meta-divider">|</span>
           {% endif %}
           <div class="social_share">
-            {% if theme.baidushare.type === "button" %}
+            {% if theme.baidushare.type === "button" || theme.baidushare.type === "slide" %}
                <div>
                  {% include '../_partials/share/baidushare.swig' %}
                </div>
