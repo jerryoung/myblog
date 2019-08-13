@@ -2,6 +2,7 @@
 menu:
   Home: /
   Archives: /archives
+  Books: /books     # 这是链接到books页面
 rss: /atom.xml
 
 # Content
