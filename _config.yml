@@ -78,10 +78,14 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/jerryoung/jerryoung.github.io.git
-  branch: master
-  message: 删除百度图片分享
+  -
+    type: git
+    repo: https://github.com/jerryoung/jerryoung.github.io.git
+    branch: master
+    message: 上传diy班的一次作业
+   # other deployer
+  - 
+    type: leancloud_counter_security_sync
 
  # local search
 search:
@@ -89,3 +93,20 @@ search:
   field: post
   format: html
   limit: 10000
+
+# leancloud_counter_security
+leancloud_counter_security:
+  enable_sync: true
+  app_id: AVw7kqBWv8BqLExXq2drwbG3-gzGzoHsz
+  app_key: I6ePpCb4W1A02o7TIXkrgrPX
+  username: jaryoung
+  password: 
+
+# douban
+douban:
+  user: 74866579
+  builtin: true
+  book:
+    title: '书中自有黄金屋'
+    quote: '书中自有颜如玉'
+  timeout: 10000 
