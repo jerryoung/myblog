@@ -82,7 +82,9 @@ deploy:
     type: git
     repo: https://github.com/jerryoung/jerryoung.github.io.git
     branch: master
-    message: 上传diy班的一次作业
+    name: jerryoung
+    email: huige3344ai@gmail.com
+    message: 正文去掉标题
    # other deployer
   - 
     type: leancloud_counter_security_sync

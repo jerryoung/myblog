@@ -3,7 +3,6 @@ title: Java的包装类型
 date: 2019-04-03 11:11:35
 tags: Java,Java基础,Java数据类型
 ---
-# Java的包装类型
 
 ## 概述
 

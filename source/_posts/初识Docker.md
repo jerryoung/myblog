@@ -1,10 +1,9 @@
 ---
-title: 初识Docker
+title: 初识Docker（针对开发人员）
 date: 2019-03-31 00:47:47
 tags: docker
 ---
 
-# 初识Docker （针对开发人员）
 
 ## 概括
 
