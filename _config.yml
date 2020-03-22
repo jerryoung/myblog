@@ -84,7 +84,7 @@ deploy:
     branch: master
     name: jerryoung
     email: huige3344ai@gmail.com
-    message: 正文去掉标题
+    message: 编写 Hystrix 是如何工作？（翻译）
    # other deployer
   - 
     type: leancloud_counter_security_sync

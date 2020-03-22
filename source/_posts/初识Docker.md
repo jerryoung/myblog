@@ -271,7 +271,7 @@ mkdir -p {conf.d,html,logs}
 ```
 
 ```shell
-docker run -p 80:80 -p 84:84 -p 82:82 --name nginx -v $PWD/www:/www -v $PWD/html:/usr/share/nginx/html -v $PWD/logs:/wwwlogs -v $PWD/conf.d:/etc/nginx/conf.d -d nginx
+docker run -p 80:80 -p 84:84 -p 82:82 --name nginx -v $PWD/www:/www -v $PWD/html:/usr/share/nginx/html -v $PWD/logs:/www/logs -v $PWD/conf.d:/etc/nginx/conf.d -d nginx
 ```
 
 命令说明：
